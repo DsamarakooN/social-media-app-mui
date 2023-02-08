@@ -9,95 +9,98 @@ const Sidebar = () => {
             p={2}
             sx={{ display: { xs: "none", sm: "block" } }}
         >
-            <List>
-                <ListItem disablePadding>
-                    <ListItemButton LinkComponent="a" href="#home">
-                        <ListItemIcon>
+            <Box position="fixed">
+                <List>
+                    <ListItem disablePadding>
+                        <ListItemButton LinkComponent="a" href="#home">
+                            <ListItemIcon>
 
-                            <HomeRounded/>
+                                <HomeRounded />
 
-                        </ListItemIcon>
-                        <ListItemText primary="Home Page" />
-                    </ListItemButton>
-                </ListItem>
+                            </ListItemIcon>
+                            <ListItemText primary="Home Page" />
+                        </ListItemButton>
+                    </ListItem>
 
-                <ListItem disablePadding>
-                    <ListItemButton LinkComponent="a" href="#Pages">
-                        <ListItemIcon>
+                    <ListItem disablePadding>
+                        <ListItemButton LinkComponent="a" href="#Pages">
+                            <ListItemIcon>
 
-                            <ArticleRounded/>
+                                <ArticleRounded />
 
-                        </ListItemIcon>
-                        <ListItemText primary="Pages" />
-                    </ListItemButton>
-                </ListItem>
+                            </ListItemIcon>
+                            <ListItemText primary="Pages" />
+                        </ListItemButton>
+                    </ListItem>
 
-                <ListItem disablePadding>
-                    <ListItemButton LinkComponent="a" href="#groups">
-                        <ListItemIcon>
+                    <ListItem disablePadding>
+                        <ListItemButton LinkComponent="a" href="#groups">
+                            <ListItemIcon>
 
-                            <GroupsRounded/>
+                                <GroupsRounded />
 
-                        </ListItemIcon>
-                        <ListItemText primary="Groups" />
-                    </ListItemButton>
-                </ListItem>
+                            </ListItemIcon>
+                            <ListItemText primary="Groups" />
+                        </ListItemButton>
+                    </ListItem>
 
-                <ListItem disablePadding>
-                    <ListItemButton LinkComponent="a" href="#marketplace">
-                        <ListItemIcon>
+                    <ListItem disablePadding>
+                        <ListItemButton LinkComponent="a" href="#marketplace">
+                            <ListItemIcon>
 
-                            <StorefrontOutlined/>
+                                <StorefrontOutlined />
 
-                        </ListItemIcon>
-                        <ListItemText primary="Marketplace" />
-                    </ListItemButton>
-                </ListItem>
+                            </ListItemIcon>
+                            <ListItemText primary="Marketplace" />
+                        </ListItemButton>
+                    </ListItem>
 
-                <ListItem disablePadding>
-                    <ListItemButton LinkComponent="a" href="#friends">
-                        <ListItemIcon>
+                    <ListItem disablePadding>
+                        <ListItemButton LinkComponent="a" href="#friends">
+                            <ListItemIcon>
 
-                            <PersonRounded/>
+                                <PersonRounded />
 
-                        </ListItemIcon>
-                        <ListItemText primary="Friends" />
-                    </ListItemButton>
-                </ListItem>
+                            </ListItemIcon>
+                            <ListItemText primary="Friends" />
+                        </ListItemButton>
+                    </ListItem>
 
-                <ListItem disablePadding>
-                    <ListItemButton LinkComponent="a" href="#settings">
-                        <ListItemIcon>
+                    <ListItem disablePadding>
+                        <ListItemButton LinkComponent="a" href="#settings">
+                            <ListItemIcon>
 
-                            <SettingsOutlined/>
+                                <SettingsOutlined />
 
-                        </ListItemIcon>
-                        <ListItemText primary="Settings" />
-                    </ListItemButton>
-                </ListItem>
+                            </ListItemIcon>
+                            <ListItemText primary="Settings" />
+                        </ListItemButton>
+                    </ListItem>
 
-                <ListItem disablePadding>
-                    <ListItemButton LinkComponent="a" href="#profile">
-                        <ListItemIcon>
+                    <ListItem disablePadding>
+                        <ListItemButton LinkComponent="a" href="#profile">
+                            <ListItemIcon>
 
-                            <AccountBoxRounded/>
+                                <AccountBoxRounded />
 
-                        </ListItemIcon>
-                        <ListItemText primary="Profile" />
-                    </ListItemButton>
-                </ListItem>
+                            </ListItemIcon>
+                            <ListItemText primary="Profile" />
+                        </ListItemButton>
+                    </ListItem>
 
-                <ListItem disablePadding>
-                    <ListItemButton LinkComponent="a" href="#profile">
-                        <ListItemIcon>
+                    <ListItem disablePadding>
+                        <ListItemButton LinkComponent="a" href="#profile">
+                            <ListItemIcon>
 
-                            <NightsStayRounded/>
+                                <NightsStayRounded />
 
-                        </ListItemIcon>
-                        <Switch/>
-                    </ListItemButton>
-                </ListItem>
-            </List>
+                            </ListItemIcon>
+                            <Switch />
+                        </ListItemButton>
+                    </ListItem>
+                </List>
+
+            </Box>
 
         </Box>
     )
