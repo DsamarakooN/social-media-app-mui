@@ -2,7 +2,7 @@ import { Favorite, Share, MoreVert, FavoriteBorder   } from "@mui/icons-material
 import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from "@mui/material";
 import React from "react";
 
-const Post = () => {
+const Post = ({title, date, imageUrl, description}) => {
     return (
         <Card sx={{margin: 5}}>
                 <CardHeader
@@ -16,20 +16,18 @@ const Post = () => {
                             <MoreVert />
                         </IconButton>
                     }
-                    title="John Doe"
-                    subheader="January 11, 2023"
+                    title={title}
+                    subheader={date}
                 />
                 <CardMedia
                     component="img"
                     height="20%"
-                    image="https://img.traveltriangle.com/blog/wp-content/uploads/2020/02/Places-In-Sri-Lanka_4th-jun.jpg"
+                    image={imageUrl}
                     alt="Paella dish"
                 />
                 <CardContent>
                     <Typography variant="body2" color="text.secondary">
-                        This impressive paella is a perfect party dish and a fun meal to cook
-                        together with your guests. Add 1 cup of frozen peas along with the mussels,
-                        if you like.
+                        {description}
                     </Typography>
                 </CardContent>
                 <CardActions disableSpacing>
