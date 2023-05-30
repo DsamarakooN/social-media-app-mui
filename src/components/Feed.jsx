@@ -31,7 +31,7 @@ const Feed = () => {
             title: "Lara Samarakoon",
             date: "2022-05-12",
             imageUrl: "https://www.holidify.com/images/bgImages/YALA-NATIONAL-PARK.jpg",
-            description: "Lorem ipsum dolor sit 1234 amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum!"
+            description: "Lorem ipsum dolor sit 12345 amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum!"
         },
         {
             id: 5,
