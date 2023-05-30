@@ -35,7 +35,7 @@ const Feed = () => {
         },
         {
             id: 5,
-            title: "Lara Samarakoon",
+            title: "Dhanushka Samarakoon",
             date: "2022-05-12",
             imageUrl: "https://www.holidify.com/images/bgImages/YALA-NATIONAL-PARK.jpg",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentiumoptio, eaque rerum!"
