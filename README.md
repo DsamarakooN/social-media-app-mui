@@ -2,7 +2,7 @@
 
 ## Demo
 
-A demo of the app is available at [https://social-media-app-5dgus82dn-dsamarakoon.vercel.app/](https://social-media-app-5dgus82dn-dsamarakoon.vercel.app/).
+A demo of the app is available at [https://social-media-app-mui.vercel.app/](https://social-media-app-mui.vercel.app/).
 
 
 This is a frontend for a social media application built using React.js and Material-UI. It allows users to interact with each other and share their thoughts, pictures, and videos.
